@@ -1,0 +1,34 @@
+.header{
+    background-color:#F4EFE6;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.marca img{
+    width: 10rem;
+    height: auto;
+    margin: 0;
+}
+
+.marca {
+    display: flex;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin: 3rem;
+    font-weight: bold;
+}
+
+.hora{
+    flex-direction: column;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 3rem;
+}
